@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server of Rick & Morty App",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateoLeon505/rick_and_morty.git"
+  },
+  "author": "Mateo Leon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateoLeon505/rick_and_morty/issues"
+  },
+  "homepage": "https://github.com/MateoLeon505/rick_and_morty#readme",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
